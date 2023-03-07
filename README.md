@@ -1,2 +1,5 @@
 # chatai
  
+- start docker
+
+- build 
