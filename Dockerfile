@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . /app
 
 # Install any necessary dependencies
-RUN conda install --yes --file requirements.txt
+RUN pip install -r requirements.txt
 
 # Expose the Jupyter Notebook port
 EXPOSE 8888
